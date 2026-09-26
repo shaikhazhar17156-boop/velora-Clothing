@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-accent: #B08D57;
+  --color-accent-light: #F9F5EE;
+  --color-accent-dark: #8F703E;
+  --color-neutral-dark: #111111;
+  --color-neutral-light: #F7F7F7;
+  --color-neutral-border: #E5E5E5;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #111111;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif-fashion {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+/* Hide scrollbar for clean horizontal product sliders */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

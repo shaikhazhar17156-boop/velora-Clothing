@@ -1,0 +1,6 @@
+{
+  "name": "VELORA - Premium Clothing Store & Admin Dashboard",
+  "description": "Modern, premium, fully responsive clothing e-commerce website for Men, Women and Kids with a comprehensive management Admin Panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
